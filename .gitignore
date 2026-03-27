@@ -1,5 +1,4 @@
-﻿# Data & Audio
-notebook/data/
+﻿# Data & Audio (but KEEP outputs folder for results)
 data/
 *.wav
 *.arrow
@@ -40,14 +39,16 @@ Thumbs.db
 *.swo
 *~
 
-# Large model files (use Git LFS instead or download separately)
-models/whisper-quick-trained/
-models/**/*.bin
-models/**/*.pth
-models/**/*.safetensors
+# Large model files - KEEP ONLY METADATA, NOT WEIGHTS
+models/whisper-quick-trained/*
+!models/whisper-quick-trained/README.md
+!models/whisper-quick-trained/config.json
+!models/whisper-quick-trained/preprocessor_config.json
 
-# Very large data files
+# Large CSV - but KEEP other outputs
 outputs/spelling_classification.csv
+outputs/*.wav
+outputs/*.mp3
 
 # Environment variables
 .env
