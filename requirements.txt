@@ -1,0 +1,15 @@
+transformers==4.45.2
+datasets
+evaluate
+soundfile
+torch
+torchaudio
+tqdm
+pandas
+requests
+numpy
+librosa 
+jiwer
+accelerate
+indic-transliteration
+nltk

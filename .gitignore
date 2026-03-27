@@ -1,0 +1,62 @@
+﻿# Data & Audio
+notebook/data/
+data/
+*.wav
+*.arrow
+*.mp3
+*.flac
+
+# Virtual environments
+.venv/
+.venv1/
+venv/
+env/
+ENV/
+.Python
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Large model files (use Git LFS instead or download separately)
+models/whisper-quick-trained/
+models/**/*.bin
+models/**/*.pth
+models/**/*.safetensors
+
+# Very large data files
+outputs/spelling_classification.csv
+
+# Environment variables
+.env
+.env.local
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Build artifacts
+*.tar.gz
+*.zip

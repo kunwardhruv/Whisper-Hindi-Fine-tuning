@@ -1,0 +1,14 @@
+{
+  "baseline_whisper_small": {
+    "local_wer": 0.941
+  },
+  "finetuned_whisper_small": {
+    "local_wer": 0.9335
+  },
+  "evaluation_details": {
+    "dataset": "Local Hindi Data",
+    "baseline_wer": 0.941,
+    "finetuned_wer": 0.9335,
+    "improvement_percent": 0.7970244420828854
+  }
+}
