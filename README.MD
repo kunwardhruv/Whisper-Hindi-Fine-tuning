@@ -261,12 +261,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Josh Talks** for the Hindi ASR dataset
 - **Research Community** for ASR evaluation methodologies
 
-## 📞 Contact
 
-**Assignment**: AI Researcher Intern - Speech & Audio  
-**Organization**: Josh Talks  
-**Date**: March 2026  
-**Status**: ✅ Completed Successfully
 
 ---
 
